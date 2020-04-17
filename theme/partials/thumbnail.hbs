@@ -25,7 +25,7 @@
       data-sub-html="{{meta.caption}}"
       data-download-url="{{relative urls.download}}"
       
-      data-filename="{{filename}}"
+      data-filename="{{relative urls.small}}{{relative urls.download}}"
 
       {{#if meta.exif}}
         data-datetimeoriginal="{{meta.exif.DateTimeOriginal}}"
